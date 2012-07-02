@@ -15,9 +15,9 @@
 	<description>ShrinkWrap integration extension for the Mobicents Sip Servles 1.x container</description>
 
 	<scm>
-		<connection>scm:git:https://code.google.com/p/commtesting.mss-arquillian/shrinkwrap-container-mobicents/</connection>
-		<developerConnection>scm:git:https://code.google.com/p/commtesting.mss-arquillian/shrinkwrap-container-mobicents/</developerConnection>
-		<url>http://code.google.com/p/commtesting.mss-arquillian/shrinkwrap-container-mobicents/</url>
+		<connection>scm:git:https://code.google.com/p/commtesting.mss-shrinkwrap/</connection>
+		<developerConnection>scm:git:https://code.google.com/p/commtesting.mss-shrinkwrap/</developerConnection>
+		<url>http://code.google.com/p/commtesting.mss-shrinkwrap/</url>
 	</scm>
 
 	<distributionManagement>
