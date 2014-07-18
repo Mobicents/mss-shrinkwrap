@@ -50,15 +50,17 @@
 
 	<properties>
 		<!-- <version.org.apache.tomcat_tomcat>6.0.35</version.org.apache.tomcat_tomcat> -->
-		<version.org.apache.tomcat_tomcat>7.0.27</version.org.apache.tomcat_tomcat>
-		<version.telscale.servlet.sip>7.0.0.GA-TelScale</version.telscale.servlet.sip>
-		<version.telscale.jain.sip.ext>7.0.0.GA-TelScale</version.telscale.jain.sip.ext>
+		<version.org.apache.tomcat_tomcat>7.0.50</version.org.apache.tomcat_tomcat>
+		<version.telscale.servlet.sip>7.0.3.258</version.telscale.servlet.sip>
+		<version.telscale.jain.sip.ext>7.0.3.7</version.telscale.jain.sip.ext>
+		<version.telscale.jain.sip.ha>7.0.3.7</version.telscale.jain.sip.ha>
+		<version.telscale.load.balancer>7.0.3.221</version.telscale.load.balancer>
 		<version.org.apache.httpcomponents_httpclient>4.0.1</version.org.apache.httpcomponents_httpclient>
 		<!-- <version.org.jboss.shrinkwrap>1.0.0-beta-1</version.org.jboss.shrinkwrap> -->
 		<version.org.jboss.shrinkwrap>1.0.1</version.org.jboss.shrinkwrap>
 		<version.junit_junit>4.8</version.junit_junit>
 		<jain-sip-api.version>1.2</jain-sip-api.version>
-		<jain-sip-ri.version>7.0.0.GA-TelScale</jain-sip-ri.version>
+		<jain-sip-ri.version>7.0.3.194</jain-sip-ri.version>
 	</properties>
 
 	<!-- Licenses -->
@@ -183,30 +185,30 @@
 		<dependency>
 			<groupId>org.mobicents.javax.sip</groupId>
 			<artifactId>mobicents-jain-sip-ext</artifactId>
-			<version>1.1</version>
+			<version>${version.telscale.jain.sip.ext}</version>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.mobicents.tools</groupId>
 			<artifactId>sip-balancer-jar</artifactId>
-			<version>1.5.0.FINAL</version>
+			<version>${version.telscale.load.balancer}</version>
 			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.mobicents.ha.javax.sip</groupId>
 			<artifactId>mobicents-jain-sip-ha-core</artifactId>
-			<version>1.3.1.FINAL</version>
+			<version>${version.telscale.jain.sip.ha}</version>
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
+		<!--dependency>
 			<groupId>org.mobicents.ha.javax.sip</groupId>
 			<artifactId>mobicents-jain-sip-jboss4</artifactId>
 			<version>1.3.1.FINAL</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency-->
 
 		<dependency>
 			<groupId>log4j</groupId>
