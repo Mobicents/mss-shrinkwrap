@@ -3,7 +3,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<!-- Parent -->
-	<!-- <parent> <groupId>org.jboss</groupId> <artifactId>jboss-parent</artifactId> 
+	<!-- <parent> <groupId>org.jboss</groupId> <artifactId>jboss-parent</artifactId>
 		<version>5</version> </parent> -->
 
 	<modelVersion>4.0.0</modelVersion>
@@ -51,8 +51,8 @@
 	<properties>
 		<!-- <version.org.apache.tomcat_tomcat>6.0.35</version.org.apache.tomcat_tomcat> -->
 		<version.org.apache.tomcat_tomcat>7.0.50</version.org.apache.tomcat_tomcat>
-		<version.telscale.servlet.sip>7.0.3.258</version.telscale.servlet.sip>
-		<version.telscale.jain.sip.ext>7.0.3.7</version.telscale.jain.sip.ext>
+		<version.telscale.servlet.sip>7.0.3.302</version.telscale.servlet.sip>
+		<version.telscale.jain.sip.ext>7.0.3.14</version.telscale.jain.sip.ext>
 		<version.telscale.jain.sip.ha>7.0.3.7</version.telscale.jain.sip.ha>
 		<version.telscale.load.balancer>7.0.3.221</version.telscale.load.balancer>
 		<version.org.apache.httpcomponents_httpclient>4.0.1</version.org.apache.httpcomponents_httpclient>
@@ -60,7 +60,7 @@
 		<version.org.jboss.shrinkwrap>1.0.1</version.org.jboss.shrinkwrap>
 		<version.junit_junit>4.8</version.junit_junit>
 		<jain-sip-api.version>1.2</jain-sip-api.version>
-		<jain-sip-ri.version>7.0.3.194</jain-sip-ri.version>
+		<jain-sip-ri.version>7.0.3.222</jain-sip-ri.version>
 	</properties>
 
 	<!-- Licenses -->
@@ -150,8 +150,8 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- <dependency> <groupId>org.mobicents.servlet.sip.containers</groupId> 
-			<artifactId>sip-servlets-tomcat-jboss4</artifactId> <version>${version.org.mobicents.servlet.sip}</version> 
+		<!-- <dependency> <groupId>org.mobicents.servlet.sip.containers</groupId>
+			<artifactId>sip-servlets-tomcat-jboss4</artifactId> <version>${version.org.mobicents.servlet.sip}</version>
 			<scope>provided</scope> </dependency> -->
 
 		<dependency>
