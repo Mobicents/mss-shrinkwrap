@@ -10,7 +10,7 @@
 
 	<groupId>org.mobicents.shrinkwrap.container</groupId>
 	<artifactId>shrinkwrap-container-mobicents</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>ShrinkWrap Mobicents Sip Servles 1.x Integration Extension</name>
 	<description>ShrinkWrap integration extension for the Mobicents Sip Servles 1.x container</description>
 	<url>http://code.google.com/p/commtesting/</url>
@@ -32,7 +32,7 @@
 		<connection>scm:git:git@github.com:Mobicents/mss-shrinkwrap.git</connection>
 		<developerConnection>scm:git:git@github.com:Mobicents/mss-shrinkwrap.git</developerConnection>
 		<url>https://github.com/Mobicents/mss-shrinkwrap/</url>
-	  <tag>1.0.1</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<distributionManagement>
