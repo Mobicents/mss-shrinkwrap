@@ -29,8 +29,8 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git@github.com:Restcomm/sip-servlets.shrinkwrap.git</connection>
-		<developerConnection>scm:git:git@github.com:Restcomm/sip-servlets.shrinkwrap.git</developerConnection>
+		<connection>scm:git:https://github.com/RestComm/sip-servlets.shrinkwrap.git</connection>
+		<developerConnection>scm:git:https://github.com/RestComm/sip-servlets.shrinkwrap.git</developerConnection>
 		<url>https://github.com/Restcomm/sip-servlets.shrinkwrap/</url>
 	  <tag>HEAD</tag>
   </scm>
