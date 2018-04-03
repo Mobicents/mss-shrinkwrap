@@ -53,7 +53,7 @@
 		<version.org.restcomm.servlet.sip>1.7.0.FINAL</version.org.restcomm.servlet.sip>
 		<version.org.apache.httpcomponents_httpclient>4.0.1</version.org.apache.httpcomponents_httpclient>
 		<!-- <version.org.jboss.shrinkwrap>1.0.0-beta-1</version.org.jboss.shrinkwrap> -->
-		<version.org.jboss.shrinkwrap>1.0.1</version.org.jboss.shrinkwrap>
+		<version.org.jboss.shrinkwrap>1.2.6</version.org.jboss.shrinkwrap>
 		<version.junit_junit>4.8</version.junit_junit>
 		<jain-sip-api.version>1.2.1.4</jain-sip-api.version>
 		<jain-sip-ri.version>1.2.293</jain-sip-ri.version>
@@ -251,20 +251,6 @@
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<preparationGoals>clean install</preparationGoals>
 				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-gpg-plugin</artifactId>
-				<version>1.6</version>
-				<executions>
-					<execution>
-						<id>sign-artifacts</id>
-						<phase>verify</phase>
-						<goals>
-							<goal>sign</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
